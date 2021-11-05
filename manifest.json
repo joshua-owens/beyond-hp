@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Beyond HP",
+  "version": "1.0",
+  "description": "Automatically unchecks the 'Reset maximum HP changes during Long Rests' when the Long Rest panel is open.",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mozilla.org/*"
+      ],
+      "js": [
+        "beyond-hp.js"
+      ]
+    }
+  ]
+}
