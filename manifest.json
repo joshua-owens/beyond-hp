@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.mozilla.org/*"
+        "*://*.dndbeyond.com/profile/imparable/characters/*"
       ],
       "js": [
         "beyond-hp.js"
